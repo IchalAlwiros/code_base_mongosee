@@ -1,6 +1,6 @@
-const {getAll, updatedData, createData, deleteData, getById} = require("../controllers/mahasiswa.controllers")
+const {getAll, getById, createData, updatedData, deleteData} = require("../controllers/dosen.controllers")
 
-const router = require('express').Router()  
+const router = require("express").Router()
 
 router.get("/", getAll)
 router.get("/:id", getById)
